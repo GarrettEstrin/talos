@@ -669,10 +669,10 @@ ul.slimmenu.collapsed li > ul {
 	color:#000;
 }
 .title-text.left h3{
-	text-align:left;
+	/*text-align:left;*/
 	padding-top:40px;
 	width:100%;
-	max-width:580px;
+	/*max-width:580px;*/
 }
 .title-text.left p span{
 	padding-left:80px;
@@ -843,7 +843,7 @@ svg * {
 	overflow:hidden;
 	display:block;
 	padding-bottom:60px;
-	background-image:url('../images/qu.png');
+	/*background-image:url('../images/qu.png');*/
 	background-repeat:no-repeat;
 	background-position: 0 10px;
 	background-size: 18px 11px;
@@ -855,9 +855,10 @@ svg * {
 	font-weight:300;
 	width:100%;
 	max-width:830px;
+  margin: 0 auto;
 }
 .quote:before {
-	content:'';
+	/*content:'';*/
 	position:absolute;
 	width:40px;
 	height:1px;
@@ -1659,7 +1660,7 @@ figure.vimeo a img, figure.youtube a img {
 	box-sizing: border-box;
 }
 .pricing-plan:before {
-	content:'';
+	/*content:'';*/
 	position:absolute;
 	width:100%;
 	height:50%;
@@ -1693,7 +1694,7 @@ figure.vimeo a img, figure.youtube a img {
 	right:0;
 }
 .pricing-plan .top{
-	position:relative;
+	/*position:relative;*/
 	text-align:left;
 	font-family: 'Poppins', sans-serif;
 	font-weight:600;
@@ -1707,7 +1708,7 @@ figure.vimeo a img, figure.youtube a img {
 	padding-left:80px;
 }
 .pricing-plan .top:before {
-	content:'';
+	/*content:'';*/
 	position:absolute;
 	width:40px;
 	height:1px;
@@ -2135,6 +2136,7 @@ figure.vimeo a img, figure.youtube a img {
 	position: relative;
 	width: 100%;
     height:500px;
+    display: none;
 }
 #cd-google-map {
 	position: relative;
@@ -2709,6 +2711,7 @@ ul.slimmenu li > ul {
 .quote h4{
 	font-size: 18px;
 	line-height: 24px;
+  margin: 0 auto;
 }
 .pricing-plan{
 	width:100%;
@@ -2815,4 +2818,8 @@ ul.slimmenu li > ul {
     margin-left:2px;
 	margin-right:2px;
 }
+}
+
+.about-icon {
+  display: none;
 }
